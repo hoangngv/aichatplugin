@@ -9,7 +9,7 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.hoangngv.aichatplugin.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <toolWindow factoryClass="com.github.hoangngv.aichatplugin.toolWindow.ZcaToolWindowFactory" id="ZCA"/>
         <postStartupActivity implementation="com.github.hoangngv.aichatplugin.startup.MyProjectActivity" />
     </extensions>
 </idea-plugin>
